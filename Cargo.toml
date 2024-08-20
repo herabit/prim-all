@@ -1,0 +1,9 @@
+[package]
+name = "prim-all"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytemuck = { version = "1.17.0", features = ["extern_crate_std"] }
+primal = "0.3.3"
+rayon = "1.10.0"
